@@ -378,10 +378,10 @@ class WorkerDetailsPage extends StatefulWidget {
 }
 
 class _WorkerDetailsPageState extends State<WorkerDetailsPage> {
-  final _nameController = TextEditingController(text: 'Rajesh Kumar');
-  final _phoneController = TextEditingController(text: '+91 9876543210');
+  final _nameController = TextEditingController(text: 'silva');
+  final _phoneController = TextEditingController(text: '+94 9876543210');
   final _experienceController = TextEditingController(text: '5 years in cinnamon farming');
-  final _skillsController = TextEditingController(text: 'Harvesting, Planting, Pest Control');
+  final _skillsController = TextEditingController(text: 'Harvesting, Planting, ');
 
   @override
   Widget build(BuildContext context) {
